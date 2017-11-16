@@ -335,6 +335,11 @@ highlight link SyntasticStyleWarningSign SignColumn
   filetype plugin indent on
   call plug#end()
 
+
+" - [jceb/vim-orgmode](https://github.com/jceb/vim-orgmode) adds
+"   emacs-like org mode
+Plug 'jceb/vim-orgmode'
+
 " - [junegunn/fzf](https://github.com/junegunn/fzf) adds
 "   fuzzy search capability to your nvim
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
